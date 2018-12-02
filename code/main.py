@@ -64,4 +64,4 @@ while True:
     os.system("sudo cp -r ../data/" + date() + " /var/www/html/data/")
     os.system("sudo cp -r ../data/Current" + " /var/www/html/data/")
     print(time.strftime("%H:%M:%S : Done"))
-    #time.sleep(1800)
+    time.sleep(1800)
