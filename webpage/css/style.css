@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: linear-gradient(90deg, #FF471F, #FFA71F);
+}
+
+
+img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 3vh;
+}
+
+h2 {
+	margin-bottom: 0;
+	font-size: 2vh;
+}
+
+h3 {
+	margin: 0;
+	font-size: 2vh;
+}
+
+.graph-container {
+	width: 30vw;
+	background-color: white;
+	border-radius: 2vh;
+	float: left;
+	margin: 10px;
+}
+
+#graphs {
+	display: inline-block;
+	padding-left: calc(5vw - 30px);
+}
+
+#title {
+	text-align: center;
+	font-family: "Montserrat";
+}
